@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This repository hosts the design, verification, and end-to-end automated silicon implementation of a **Multiply-Accumulate (MAC) Unit**. Designed in **Verilog HDL**, this hardware block undergoes complete digital physical design from RTL synthesis to final GDSII layout generation using the open-source **OpenLane** EDA flow and open PDKs (such as SkyWater 130nm).
 
@@ -16,7 +16,7 @@ The MAC unit serves as the computational backbone for modern high-performance Di
 
 ---
 
-## 🧠 Fundamental Theory
+## Fundamental Theory
 
 ### 1. The Multiply-Accumulate Operation
 The fundamental operation of a MAC unit computes the product of two input operands and adds that product to an ongoing accumulator value:
@@ -31,6 +31,6 @@ Implementing this natively in dedicated hardware eliminates instruction overhead
 
 ---
 
-## 🏗️ Architectural Building Blocks
+## Architectural Building Blocks
 
 A standard hardware MAC architecture comprises three primary functional units:
