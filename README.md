@@ -1,6 +1,3 @@
-# MAC-Unit-VerilogHDL-OpenLane
-Design, verification, and automated RTL-to-GDSII ASIC implementation of a Multiply-Accumulate (MAC) Unit using Verilog HDL and the OpenLane open-source EDA flow.
-
 # Multiply-Accumulate (MAC) Unit — RTL to GDSII with OpenLane
 
 ![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
