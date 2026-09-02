@@ -6,6 +6,16 @@
 ![Process: SkyWater 130nm](https://img.shields.io/badge/PDK-SkyWater%20130nm-red.svg)
 ![Status: Active](https://img.shields.io/badge/Design%20Status-Theory%20%26%20Design-informational.svg)
 
+<div align="center" style="margin: 20px 0;">
+  <a href="https://ishaan2005.github.io/gds-viewer/" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/GDSII_Viewer-Launch_Tool-blue?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="GDS Viewer" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://ishaan2005.github.io/rtl-portfolio/" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/RTL_Portfolio-View_Demo-brightgreen?style=for-the-badge&logo=github&logoColor=white" alt="View Demo" />
+  </a>
+</div>
+
 ---
 
 ## Project Overview
@@ -34,3 +44,20 @@ Implementing this natively in dedicated hardware eliminates instruction overhead
 ## Architectural Building Blocks
 
 A standard hardware MAC architecture comprises three primary functional units:
+
+1. **Multiplier Stage:** Multiplies $N$-bit inputs $A$ and $B$ to yield a $2N$-bit intermediate product.
+2. **Adder Stage:** Sums the $2N$-bit product with the dynamic width accumulator register.
+3. **Accumulator Register:** Holds the running total, protected with additional guard bits to prevent arithmetic overflow during sequential multiply-add steps.
+
+---
+
+## Interactive Demos & Links
+
+- **GDSII Viewer:** [<ins>Launch Interactive Layout Tool</ins>](https://ishaan2005.github.io/gds-viewer/)
+- **RTL Portfolio:** [<ins>View Full Hardware Design Portfolio</ins>](https://ishaan2005.github.io/rtl-portfolio/)
+
+---
+
+## License
+
+Distributed under the [Apache 2.0 License](LICENSE).
